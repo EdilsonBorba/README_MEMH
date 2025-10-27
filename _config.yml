@@ -1,9 +1,8 @@
 title: MEMH
 description: Análises biomecânicas em vídeo
-# Temas oficiais do GitHub Pages (fáceis e estáveis)
 theme: jekyll-theme-cayman
-# Extras úteis
-plugins:
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-mentions
+
+markdown: kramdown
+kramdown:
+  input: GFM   # <- habilita tabelas estilo GitHub
+
